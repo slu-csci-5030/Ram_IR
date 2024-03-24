@@ -53,3 +53,44 @@ html {
 		width: 100%; /* Full width blocks on small screens */
 	}
 }
+
+/*communication */
+
+#communicationChannels {
+    max-height: 600px; 
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.block.small {
+    height: 300px; 
+    overflow: auto; 
+}
+
+#communicationChannels h2 {
+    text-align: center; 
+    margin-top: 0; 
+}
+
+#communicationChannels .communication {
+    text-align: center;
+}
+
+#communicationChannels .contact_info {
+    margin-top: 10px;
+	overflow:auto;
+}
+
+#communicationChannels ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0; /* Remove default margin */
+    padding: 0 10px; /* Add padding for better appearance */
+}
+
+#communicationChannels ul li {
+    margin: 5px 0;
+}
+
