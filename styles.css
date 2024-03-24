@@ -66,9 +66,12 @@ html {
 	flex-direction: row;
 	gap: 5px;
 	text-align: center;
-	/* border: 1px solid gray;
-	border-radius: 5px;
-	padding: 5px; */
+	max-height: 300px;
+	overflow-y: auto;
+}
+	
+.kanban__column {
+	flex: 1;
 }
 
 .kanban__column-header {
@@ -77,6 +80,9 @@ html {
 	margin-bottom: 5px;
 	padding: 4px;
 	font-weight: bold;
+	position: sticky;
+	top: 0;
+	background-color: white;
 }
 
 .kanban__card {
