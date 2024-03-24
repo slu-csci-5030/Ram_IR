@@ -1,0 +1,55 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dashboard {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr); /* Four columns */
+	grid-template-rows: auto; /* Row height to fit content */
+	gap: 10px;
+	width: 95vw; /* Adjust based on your design preferences */
+	height: 95vh; /* Adjust based on your design preferences */
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffffff;
+	border-radius: 8px;
+	padding: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	text-align: center;
+}
+
+/* Different block sizes based on the class */
+.large {
+	grid-column: span 2;
+} /* Takes two columns */
+.medium {
+	grid-column: span 1;
+} /* Takes one column */
+.small {
+	grid-column: span 1;
+} /* Takes one column, but could be less tall */
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+	.dashboard {
+		grid-template-columns: 1fr; /* Stack blocks in a single column on small screens */
+	}
+	.block {
+		width: 100%; /* Full width blocks on small screens */
+	}
+}
