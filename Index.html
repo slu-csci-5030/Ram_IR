@@ -5,7 +5,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Information Radiator</title>
 		<link rel="stylesheet" href="styles.css" />
+		<style>
+			/* Added CSS for image */
+			.bug{
+				width: 10%;
+				display: block;
+			}
+			#incidentTracking img {
+				max-width: 100%;
+				height: auto;
+				max-height: 100%;
+				width: 100%;
+				
+
+			}
+		</style>
 	</head>
+	
 	<body>
 		<div class="dashboard">
 			<!-- Top row -->
@@ -24,8 +40,9 @@
 			<div class="block medium" id="backlogPrioritization">
 				Backlog Prioritization
 			</div>
-			<div class="block medium" id="incidentTracking">
-				Incident & Bug Tracking
+			<div class="block medium " id="incidentTracking">
+				<div><img src="Assets/bug.png"></div>
+				
 			</div>
 			<div class="block medium" id="userStoryMapping">User Story Mapping</div>
 
