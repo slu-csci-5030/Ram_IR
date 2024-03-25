@@ -53,3 +53,53 @@ html {
 		width: 100%; /* Full width blocks on small screens */
 	}
 }
+
+/* Kanban stylings */
+#kanbanBoard {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.kanban {
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
+	text-align: center;
+	max-height: 300px;
+	overflow-y: auto;
+}
+	
+.kanban__column {
+	flex: 1;
+}
+
+.kanban__column-header {
+	border: 2px solid blue;
+	border-radius: 4px;
+	margin-bottom: 5px;
+	padding: 4px;
+	font-weight: bold;
+	position: sticky;
+	top: 0;
+	background-color: white;
+}
+
+.kanban__card {
+	border: 2px solid lightblue;
+	border-radius: 4px;
+	margin-bottom: 2px;
+	padding: 3px;
+}
+
+#kanbanToDo .kanban__column-header {
+	border-color: orangered;
+}
+
+#kanbanInProgress .kanban__column-header {
+	border-color: gold;
+}
+
+#kanbanDone .kanban__column-header {
+	border-color: green;
+}
