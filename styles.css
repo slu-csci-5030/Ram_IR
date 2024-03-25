@@ -53,3 +53,34 @@ html {
 		width: 100%; /* Full width blocks on small screens */
 	}
 }
+/* CSS for User Story Mapping section */
+#userStoryMapping {
+    background-color: #ffcccc; /* Adjust background color as needed */
+    color: #333; /* Adjust text color as needed */
+    overflow-y: scroll; /* Add scrollbar if content exceeds container height */
+}
+
+.persona-links {
+    display: flex;
+    flex-wrap: wrap; /* Wrap persona links to the next line if needed */
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.persona-links a {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.persona-links a:hover {
+    background-color: #ccc;
+}
+
+.persona-details {
+    padding: 10px;
+}
