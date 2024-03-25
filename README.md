@@ -41,3 +41,18 @@ Our project leverages a variety of technologies to create a robust and scalable 
 
 - **ESLint** is a static code analysis tool for identifying problematic patterns found in JavaScript code. It helps us maintain code quality standards.
   - [ESLint Documentation](https://eslint.org/docs/user-guide/getting-started)
+
+### Build and Deployment Status
+In our Build and Deployment Status, we actively address issues encountered by team members during code development. For instance, if a Team Member encounters an issue, they'll comment on the problem, followed by its status. Other team members with potential solutions will reach out to assist and the status changes appropriately.
+
+# Build and deployment status
+
+In our **Build and Deployment status** process, we actively address issues encountered by team members during code development. For instance, if Team Member 1 encounters a frontend ReactJS issue, they'll comment on the problem, marked in *red* as *(PENDING)*, followed by its status. Other team members with potential solutions will reach out to assist.
+
+Similar scenarios have arisen in our project:
+
+**Issue 1**:
+Raised by *Ashwin*, highlighting conflicts with different versions of libraries and frameworks for asset management functionality. Initially marked as pending, a team member later aided in resolving the problem, turning it *green* *(RESOLVED)*. Similar methodologies were applied to **Issue 3** by *Ajith* and **Issue 5** by *Sagar*.
+
+**Issue 2**:
+Raised by *Bharath*, involving version control conflicts during work on the Delete Asset feature. This issue remains unresolved, marked in red (PENDING). Meanwhile, team members are actively addressing Bharath's problem. Same in **Issue 4**, raised by *Puneeth*, this issue is being actively worked on while marked as pending.
