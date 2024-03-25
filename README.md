@@ -41,3 +41,6 @@ Our project leverages a variety of technologies to create a robust and scalable 
 
 - **ESLint** is a static code analysis tool for identifying problematic patterns found in JavaScript code. It helps us maintain code quality standards.
   - [ESLint Documentation](https://eslint.org/docs/user-guide/getting-started)
+
+### Build and Deployment Status
+In our Build and Deployment Status, we actively address issues encountered by team members during code development. For instance, if a Team Member encounters an issue, they'll comment on the problem, followed by its status. Other team members with potential solutions will reach out to assist and the status changes appropriately.
