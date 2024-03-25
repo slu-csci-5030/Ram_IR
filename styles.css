@@ -12,11 +12,11 @@ html {
 
 .dashboard {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr); /* Four columns */
-	grid-template-rows: auto; /* Row height to fit content */
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 240px auto auto;
 	gap: 10px;
-	width: 95vw; /* Adjust based on your design preferences */
-	height: 95vh; /* Adjust based on your design preferences */
+	width: 95vw; 
+	height: 95vh;
 	box-sizing: border-box;
 	padding: 10px;
 }
@@ -33,23 +33,28 @@ html {
 	text-align: center;
 }
 
-/* Different block sizes based on the class */
 .large {
 	grid-column: span 2;
-} /* Takes two columns */
+} 
 .medium {
 	grid-column: span 1;
-} /* Takes one column */
+} 
 .small {
 	grid-column: span 1;
-} /* Takes one column, but could be less tall */
+} 
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
 	.dashboard {
-		grid-template-columns: 1fr; /* Stack blocks in a single column on small screens */
+		grid-template-columns: 1fr;
 	}
 	.block {
-		width: 100%; /* Full width blocks on small screens */
+		width: 100%;
 	}
 }
+#currentSprintProgress {
+	overflow: hidden;
+	white-space: nowrap; 
+	text-overflow: ellipsis; 
+  }
+  
+  
