@@ -1,42 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Information Radiator</title>
-		<link rel="stylesheet" href="styles.css" />
-	</head>
-	<body>
-		<div class="dashboard">
-			<!-- Top row -->
-			<div class="block large" id="currentSprintProgress">
-				Current Sprint Progress
-			</div>
-			<div class="block medium" id="teamGoals">Goals & Objectives</div>
-			<div class="block medium" id="buildDeployStatus">
-				Build & Deploy Status
-			</div>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Information Radiator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        .block {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: stretch;
+            overflow: auto;
+            height: 100%;
+        }
+        
+        #teamGoals {
+            height: 300px; /* Adjust the height as needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Top row -->
+        <div class="block large" id="currentSprintProgress">
+            Current Sprint Progress
+        </div>
+        <div class="block medium" id="teamGoals">
+            <h3>Current Project Goal and Objective: Establish Robust Backend Integration</h3>
+            <p>Objective 1: Develop APIs using Express.js to facilitate backend connectivity.</p>
+            <p>Objective 2: Integrate APIs with homepage components for seamless data flow.</p>
+            <p>Objective 3: Ensure smooth collaboration between subgroups working on backend and frontend components.</p>
+            <h3>Overall Project Goal and Objective: Streamline Research Asset Management</h3>
+            <p>Objective 1: Develop a user-friendly software solution for the Vice President's office.</p>
+            <p>Objective 2: Empower designated administrators to efficiently manage research assets.</p>
+            <p>Objective 3: Enable administrators to perform essential functions (add, delete, edit, modify) on research assets.</p>
+        </div>
+        <div class="block medium" id="buildDeployStatus">
+            Build & Deploy Status
+        </div>
 
-			<!-- Middle row -->
-			<div class="block medium" id="teamContribution">
-				Team Contribution & Workload
-			</div>
-			<div class="block medium" id="backlogPrioritization">
-				Backlog Prioritization
-			</div>
-			<div class="block medium" id="incidentTracking">
-				Incident & Bug Tracking
-			</div>
-			<div class="block medium" id="userStoryMapping">User Story Mapping</div>
+        <!-- Middle row -->
+        <div class="block medium" id="teamContribution">
+            Team Contribution & Workload
+        </div>
+        <div class="block medium" id="backlogPrioritization">
+            Backlog Prioritization
+        </div>
+        <div class="block medium" id="incidentTracking">
+            Incident & Bug Tracking
+        </div>
+        <div class="block medium" id="userStoryMapping">User Story Mapping</div>
 
-			<!-- Bottom row -->
-			<div class="block small" id="communicationChannels">
-				Communication Channels
-			</div>
-			<div class="block large" id="teamCelebration">
-				Team Celebration & Recognition
-			</div>
-			<div class="block small" id="techStackPeek">Quick Peek on Tech Stack</div>
-		</div>
-	</body>
+        <!-- Bottom row -->
+        <div class="block small" id="communicationChannels">
+            Communication Channels
+        </div>
+        <div class="block large" id="teamCelebration">
+            Team Celebration & Recognition
+        </div>
+        <div class="block small" id="techStackPeek">Quick Peek on Tech Stack</div>
+    </div>
+</body>
 </html>
