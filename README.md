@@ -1,43 +1,36 @@
-# Ram_IR
-Information Radiator for the Research Asset management project.
-# Project Tech Stack Documentation Links
+# Incident and Bug Tracking Component
 
-Our project leverages a variety of technologies to create a robust and scalable asset management system. Below are links to the documentation for the main technologies we're using. These resources should help team members and contributors quickly get up to speed with our tech stack and contribute more effectively.
+As team members we are responsible for the Research Asset Tracking development project, me and Bharath have taken the task of creating an information radiator for Incident and bug tracking component of our project. One crucial component of this radiator is the Incident and Bug Tracking module, which plays a vital role in ensuring the smooth operation and quality of our software.
 
-## Frontend
+## Bug Tracking
 
-### React
+The Bug Tracking component serves as a central repository for logging and monitoring bugs encountered during the development process. It provides essential information such as:
 
-- **React** is a declarative, efficient, and flexible JavaScript library for building user interfaces. We use React to build our component-based UI.
-  - [React Documentation](https://reactjs.org/docs/getting-started.html)
+- **Bug Name**: Each bug is identified by a unique name or identifier, making it easier for team members to reference and track.
 
-### Vite
+- **Bug Status**: This indicates the current state of the bug, whether it's under work, needs work, or resolved. Having clear statuses helps prioritize and manage bug fixes effectively.
 
-- **Vite** is a build tool that significantly improves the frontend development experience. It offers fast cold starts and instant hot module replacement (HMR).
-  - [Vite Documentation](https://vitejs.dev/guide/)
+## Incident Management
 
-### CSS
+In addition to tracking bugs, the Incident Management functionality handles various types of incidents that may occur during the project lifecycle. These incidents could range from system crashes to security breaches or unexpected errors. The components includes:
 
-- **CSS** is used for styling our components. We follow best practices to ensure our application is responsive and accessible.
-  - [CSS Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- **Incident Type**: Categorizes incidents based on their nature, such as technical issues, security breaches, usability concerns, Bugs, documentation, duplicate, enhancement, good first issue, help wanted, invalid, question, won't fix.
 
-## Backend
+## Importance in Project Development
 
-### Express.js
+Integrating the Incident and Bug Tracking component into our project is crucial for several reasons:
 
-- **Express.js** is a web application framework for Node.js, designed for building web applications and APIs. It has been used to set up the server-side logic of our project.
-  - [Express.js Documentation](https://expressjs.com/)
+- **Quality Assurance**: By systematically recording and addressing bugs and incidents, we uphold the quality standards of our software, ensuring a positive user experience.
 
-## Database
+- **Efficient Collaboration**: Team members can easily communicate and collaborate on resolving issues by referencing the Bug Tracking module, fostering efficient problem-solving and teamwork.
 
-### MongoDB
+- **Continuous Improvement**: Tracking incidents allows us to identify recurring issues or patterns, enabling us to implement preventive measures and continuously improve our development processes.
 
-- **MongoDB** is a NoSQL database that offers high performance, high availability, and easy scalability. We use MongoDB to store and manage our application's data efficiently.
-  - [MongoDB Documentation](https://docs.mongodb.com/)
+## Commitment to Excellence
 
-## Additional Tools and Libraries
+As we incorporate the Incident and Bug Tracking component into our project, we reaffirm our commitment to delivering a high-quality product. Actively monitoring and addressing issues, makes the team to stay updated and stay on the same page.
 
-### ESLint
+---
 
-- **ESLint** is a static code analysis tool for identifying problematic patterns found in JavaScript code. It helps us maintain code quality standards.
-  - [ESLint Documentation](https://eslint.org/docs/user-guide/getting-started)
+
+
